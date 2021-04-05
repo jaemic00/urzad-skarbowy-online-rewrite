@@ -4,10 +4,10 @@ import { Link } from "gatsby"
 // markup
 const NotFoundPage = () => {
   return (
-    <>
-      <div>Not found.</div>
-      <Link to="/">Go home</Link>
-    </>
+  <>
+    <div>Not found.</div>
+    <Link to="/">Go home</Link>
+  </>
   )
 }
 
