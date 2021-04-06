@@ -39,19 +39,6 @@ p {
   margin-top: 40px;
 }
 
-.MainBanner-actionbutton{
-  margin-top: 70px;
-  background-color: #FF7B23;
-  outline: none;
-  border: none;
-  font-weight: bold;;
-  font-size: calc(12px + 0.5vw);
-  border-radius: none;
-  width: calc(200px + 15vw);
-  line-height: 40px  !important;
-  height: 60px;
-}
-
 .MainBanner-pitaxlogo{
   margin-top: 50px;
 }
@@ -79,12 +66,4 @@ p {
   .MainBanner-splash{
     display: none;
   }
-}
-
-.MainBanner-actionbutton:hover, 
-.MainBanner-actionbutton:active, 
-.MainBanner-actionbutton:focus{
-  background-color: #ff9854 !important;
-  outline: none !important;
-  box-shadow: none !important;
 }

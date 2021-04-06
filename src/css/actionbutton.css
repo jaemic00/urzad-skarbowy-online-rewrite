@@ -1,0 +1,37 @@
+.actionbutton{
+  margin-top: 70px;
+  background-color: #FF7B23;
+  outline: none;
+  border: none;
+  font-weight: bold;;
+  font-size: calc(12px + 0.5vw);
+  border-radius: none;
+  width: calc(200px + 15vw);
+  line-height: 40px  !important;
+  height: 60px;
+}
+
+.actionbutton-inline{
+  background-color: white;
+  border: 2px solid #FF7B23;
+  color: #FF7B23;
+}
+
+
+.actionbutton:hover, 
+.actionbutton:active, 
+.actionbutton:focus{
+  background-color: white;
+  border: 2px solid #FF7B23;
+  color: #FF7B23;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.actionbutton-inline:hover,
+.actionbutton-inline:active,
+.actionbutton-inline:focus {
+  background-color: #FF7B23 !important;
+  border: 2px solid #FF7B23;
+  color: white !important;
+}

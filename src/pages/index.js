@@ -17,15 +17,17 @@ const mainArticle = {
   adPassed: false
 }
 
+const buttonValue = "Rozpocznij Rozliczenie PIT";
+
 // Index Page
 const IndexPage = () => {
   return (
   <>
     <Container style={{padding: '0'}} fluid>
       <Menubar />
-      <MainBanner header="e-PIT z PITax.pl" buttonValue="Rozpocznij Rozliczenie Teraz!"/>
+      <MainBanner header="e-PIT z PITax.pl" buttonValue={buttonValue}/>
       <PartnersBar imgheight="50px" />
-      <MainArticle {...mainArticle} />
+      <MainArticle {...mainArticle } buttonValue={buttonValue} />
     </Container>
   </>
   )
