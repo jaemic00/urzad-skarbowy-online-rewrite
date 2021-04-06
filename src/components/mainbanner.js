@@ -23,6 +23,7 @@ const MainBanner = (props) => {
           <div className="MainBanner-pitaxlogo">
             <div className="MainBanner-subtextlogo">Bezpieczne, proste i wygodne rozliczenie zapewnia</div>
             <StaticImage 
+              alt="PITax.pl Łatwe Podatki"
               src="../images/pitax_logo_b.svg"
               width={200} />
           </div>

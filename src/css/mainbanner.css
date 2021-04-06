@@ -1,4 +1,6 @@
 .MainBanner-container{
+  width: 100%;
+  min-height: 850px;
   height: calc(100vh - 70px);
   background-color: #EEEEEE;
   padding-top: 120px;

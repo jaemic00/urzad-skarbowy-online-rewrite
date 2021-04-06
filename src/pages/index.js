@@ -7,6 +7,7 @@ import '../css/global.css'
 //Component imports
 import Menubar from "../components/menubar"
 import MainBanner from "../components/mainbanner"
+import PartnersBar from "../components/partnersbar"
 
 // Index Page
 const IndexPage = () => {
@@ -14,7 +15,7 @@ const IndexPage = () => {
   <>
     <Menubar />
     <MainBanner header="e-PIT z PITax.pl" buttonValue="Rozpocznij Rozliczenie Teraz!"/>
-    
+    <PartnersBar imgheight="50px" />
   </>
   )
 }

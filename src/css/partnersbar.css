@@ -1,0 +1,21 @@
+.PartnersBar-mainbar{
+  display: inline-block;
+  width: 100%;
+  height: 70px;
+  padding-top: 10px;
+  background: #362967;
+}
+
+@media only screen and (max-width: 992px) {
+  .PartnersBar-mainbar{
+    display: none;
+  }
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+ul li:last-child{
+  margin-right: 0;
+}
