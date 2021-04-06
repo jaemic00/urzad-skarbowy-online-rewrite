@@ -1,6 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import {Row, Col} from 'react-bootstrap'
+import {Row, Col, Card} from 'react-bootstrap'
 import '../css/mainarticle.css'
 
 // Index Page
@@ -22,7 +22,7 @@ const MainArticle = (props) => {
             src="../images/pitax_logo_ok.png"
             alt="PITax.pl Łatwe podatki"
             width={230}
-            height={208} />
+            height={230} />
         </Col>
         <Col sm={12} md={9}>
           <h2>{props.articleHeader}</h2>

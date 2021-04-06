@@ -1,6 +1,10 @@
+p {
+  text-align: left !important;
+}
+
 .MainBanner-container{
   width: 100%;
-  min-height: 900px;
+  min-height: 800px;
   height: calc(100vh - 70px);
   background-color: #EEEEEE;
   padding-top: 120px;
@@ -14,12 +18,14 @@
 }
 
 .MainBanner-subheader{
+  white-space: nowrap;
   font-weight: bold;
   font-size: 32px;
   color: #362967;
 }
 
 .MainBanner-container h1{
+  white-space: nowrap;
   font-weight: bold;
   font-size: calc(40px + 1.2vw);
   margin-top: 20px;

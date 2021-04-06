@@ -3,7 +3,7 @@ h2 {
   color: #362967;
 }
 p {
-  text-align: justify;
+  text-align: justify !important;
   margin-top: 15px;
   color: #362967;
   font-size: 16px;
