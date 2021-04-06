@@ -35,3 +35,10 @@ Navbar{
   background-color: #FF7B23;
 }
 
+.NavLink Link {
+  color: white !important;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+
+}

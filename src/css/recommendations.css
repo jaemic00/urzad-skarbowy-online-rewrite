@@ -1,5 +1,5 @@
 .RecommendationsScope h1{
-  font-size: 72px;
+  font-size: calc(52px + 0.2vw);
   color: #362967;
 }
 .RecommendationsScope h2{

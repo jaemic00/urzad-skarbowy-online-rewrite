@@ -1,0 +1,26 @@
+.Footer-info{
+  white-space: normal;
+  margin-top: 40px;
+  line-height: 70px;
+  text-align: center;
+  background-color: rgb(224, 224, 224);;
+  color: #362967;
+  font-weight: bold;
+  height: 70px;
+  width: 100%
+}
+.Footer-body{
+  padding: 20px 20%;
+  font-size: 12px;
+  font-weight: 400;
+  background: #362967;
+  color: white !important;
+}
+.Footer-body p {
+  font-size: 12px;
+  color: white !important;
+}
+
+.Footer-body a {
+  color: #FF7B23;
+}

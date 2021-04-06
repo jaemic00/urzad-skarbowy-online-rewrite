@@ -1,6 +1,17 @@
 body{
   font-family: 'Open Sans';
+  overflow-x: hidden;
+  color: #362967;
 }
 .PitaxColor{
   color: #FF7B23;
+}
+h2 {
+  font-weight: bold;
+  color: #362967;
+}
+p {
+  margin-top: 15px;
+  color: #362967;
+  font-size: 16px;
 }

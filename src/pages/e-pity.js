@@ -16,17 +16,16 @@ import { useQueryParam, StringParam } from "use-query-params";
 
 
 const mainArticle = {
-  articleHeader : "Wybraliśmy dla Państwa proste, wygodne i bezpieczne rozliczenie PIT – naszym zdaniem najlepsze w Polsce",
-  articleText : "Udostępniamy Państwu, zupełnie za darmo, system do rozliczeń podatku PIT, który dba o finanse podatnika oraz wskazuje należne mu ulgi podatkowe. Dzięki temu podatnicy korzystający z PITax.pl Łatwe podatki pięć razy częściej rozliczają ulgę na internet i średnio dwa razy częściej inne ulgi. Jest to rozwiązanie wyróżniające się – wśród programów i usług rozliczenia podatku dostępnych na rynku – prostotą i funkcjonalnością. Rozliczenie w PITax.pl obejmuje gwarancję 100% poprawności obliczeń, wskazuje dokumenty potrzebne do kontroli skarbowej i przekazuje Oficjalne Urzędowe Poświadczenie Odbioru złożonego zeznania.",
+  articleHeader : "Wybraliśmy dla Państwa proste, wygodne i bezpieczne rozliczenie e-PIT – naszym zdaniem najlepsze w Polsce",
+  articleText : "Twój e-PIT to zeznanie podatkowe PIT-28, PIT-36, PIT-36L, PIT-37, PIT-38 lub PIT-39, które można wygenerować za pomocą programu PITax.pl Łatwe Podatki. Udostępniamy go dla Państwa zupełnie za darmo. Program PITax.pl umożliwia rozliczenie Twoje e-PITy online - bez wychodzenia z domu, 24/7, na dowolnym urządzeniu. Od 2021 roku jako pierwszy program na rynku umożliwia rozliczanie Twój e-PIT w postaci PIT-37 na telefonie. Program uruchamiany jest w przeglądarce internetowej i automatycznie dostosowuje się do rozdzielczości ekranu. Uwaga, w PITax.pl rozliczą się osoby z przychodami z działalności gospodarczej i działów specjalnych produkcji rolnej, czego nie można zrobić w innych znanych programach.",
   adPassed: false
 }
 
-const buttonValue = "Rozpocznij Rozliczenie PIT";
+const buttonValue = "Rozpocznij Rozliczenie e-PIT";
 
-
-const IndexPage = () => {
+// Index Page
+const EPityPage = () => {
   const [headerValue, setHeaderValue] = useQueryParam("utm_header", StringParam);
-  
   return (
   <>
       <Helmet title="e-Urząd Skarbowy Online &raquo; Rozliczenie e-PIT 2021 za rok 2020 z oficjalnym Urzędowym Poświadczeniem Odbioru" description="Urząd Skarbowy Online" />
@@ -42,4 +41,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default EPityPage

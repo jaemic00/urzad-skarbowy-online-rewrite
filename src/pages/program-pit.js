@@ -24,15 +24,15 @@ const mainArticle = {
 const buttonValue = "Rozpocznij Rozliczenie PIT";
 
 
-const IndexPage = () => {
+const ProgramPage = () => {
   const [headerValue, setHeaderValue] = useQueryParam("utm_header", StringParam);
   
   return (
   <>
-      <Helmet title="e-Urząd Skarbowy Online &raquo; Rozliczenie e-PIT 2021 za rok 2020 z oficjalnym Urzędowym Poświadczeniem Odbioru" description="Urząd Skarbowy Online" />
+      <Helmet title="e-Urząd Skarbowy Online &raquo; Program PIT 2021 za rok 2020 z oficjalnym Urzędowym Poświadczeniem Odbioru" description="Urząd Skarbowy Online" />
       <Container style={{padding: '0'}} fluid>
       <Menubar />
-      <MainBanner header={ typeof(headerValue) != "undefined" ? headerValue : "e-PITy z PITax.pl" } buttonValue={buttonValue}/>
+      <MainBanner header={ typeof(headerValue) != "undefined" ? headerValue : "Program PIT od PITax.pl" } buttonValue={buttonValue}/>
       <PartnersBar />
       <MainArticle {...mainArticle } buttonValue={buttonValue} />
       <Recommendations buttonValue={buttonValue} />
@@ -42,4 +42,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default ProgramPage
