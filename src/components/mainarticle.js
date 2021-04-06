@@ -35,9 +35,10 @@ const MainArticle = (props) => {
         <Col xs={12} md={6} lg={4}>
         <Card className="MainArticle-card">
           <StaticImage
+            alt="Rozlicz dowolne przychody – obsługujemy wszystkie druki PIT wraz z załącznikami."
             src="../images/landing/landing-09.svg"
-            width={250}
-            height={200} />
+            height={200}
+            height={180}/>
           <Card.Body>
             <Card.Text>
               Rozlicz dowolne przychody – obsługujemy wszystkie druki PIT wraz z załącznikami.
@@ -48,9 +49,10 @@ const MainArticle = (props) => {
         <Col xs={12} md={6} lg={4}>
         <Card className="MainArticle-card">
           <StaticImage
+            alt="Rozlicz nawet najbardziej zawiłe przychody w prosty sposób – spośród tysięcy pytań zadamy tylko te potrzebne."
             src="../images/landing/landing-11.svg"
-            width={250}
-            height={200} />
+            height={200}
+            height={180}/>
           <Card.Body>
             <Card.Text>
               Rozlicz nawet najbardziej zawiłe przychody w prosty sposób – spośród tysięcy pytań zadamy tylko te potrzebne.
@@ -61,9 +63,10 @@ const MainArticle = (props) => {
         <Col xs={12} md={6} lg={4}>
         <Card className="MainArticle-card">
           <StaticImage
+            alt=" Zapisz, wydrukuj lub zachowaj w bezpiecznym repozytorium. Wysłane PITy przechowamy przez 5 lat."
             src="../images/landing/landing-05.svg"
-            width={250}
-            height={200} />
+            height={200}
+            height={180}/>
           <Card.Body>
             <Card.Text>
               Zapisz, wydrukuj lub zachowaj w bezpiecznym repozytorium. Wysłane PITy przechowamy przez 5 lat.
@@ -74,9 +77,10 @@ const MainArticle = (props) => {
         <Col xs={12} md={6} lg={4}>
         <Card className="MainArticle-card">
           <StaticImage
+            alt="Odpowiedz na tylko proste pytania bez cytowania ustaw i języka prawnego."
             src="../images/landing/landing-10.svg"
-            width={250}
-            height={200} />
+            height={200}
+            height={180}/>
           <Card.Body>
             <Card.Text>
               Odpowiedz na tylko proste pytania bez cytowania ustaw i języka prawnego.
@@ -87,9 +91,10 @@ const MainArticle = (props) => {
         <Col xs={12} md={6} lg={4}>
         <Card className="MainArticle-card">
           <StaticImage
+            alt="Wyślij przez internet do Urzędu Skarbowego – dostaniesz formalne Urzędowe Poświadczenie Odbioru."
             src="../images/landing/landing-08.svg"
-            width={250}
-            height={200} />
+            height={200}
+            height={180} />
           <Card.Body>
             <Card.Text>
               Wyślij przez internet do Urzędu Skarbowego – dostaniesz formalne Urzędowe Poświadczenie Odbioru.
@@ -100,9 +105,10 @@ const MainArticle = (props) => {
         <Col xs={12} md={6} lg={4}>
         <Card className="MainArticle-card">
           <StaticImage
+            alt="Czuj się bezpieczny – podobnie jak systemy bankowe nigdy nie przechowujemy danych na komputerze użytkownika."
             src="../images/landing/landing-07.svg"
-            width={250}
-            height={200} />
+            height={200}
+            height={180}/>
           <Card.Body>
             <Card.Text>
               Czuj się bezpieczny – podobnie jak systemy bankowe nigdy nie przechowujemy danych na komputerze użytkownika.

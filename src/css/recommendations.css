@@ -1,0 +1,29 @@
+.RecommendationsScope h1{
+  font-size: 72px;
+  color: #362967;
+}
+.RecommendationsScope h2{
+  font-weight: normal;
+  margin-top: 15px;
+}
+@media only screen and (max-width: 768px) {
+  .RecommendationsScope h1{
+    margin-top: 50px;
+  }
+}
+.RecommendationsScope a {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #362967;
+  transition: color 0.2s;
+}
+.RecommendationsScope a:hover{
+  color: #534977;
+  text-decoration: none;
+}
+.RecommendationsScope ul{
+  padding: 0  !important;
+}
+.RecommendationsScope ul li {
+  margin-top: 20px;
+}

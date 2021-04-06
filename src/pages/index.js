@@ -9,6 +9,7 @@ import Menubar from "../components/menubar"
 import MainBanner from "../components/mainbanner"
 import PartnersBar from "../components/partnersbar"
 import MainArticle from "../components/mainarticle"
+import Recommendations from "../components/recommendations"
 import Container from "react-bootstrap/Container"
 
 const mainArticle = {
@@ -28,6 +29,7 @@ const IndexPage = () => {
       <MainBanner header="e-PIT z PITax.pl" buttonValue={buttonValue}/>
       <PartnersBar imgheight="50px" />
       <MainArticle {...mainArticle } buttonValue={buttonValue} />
+      <Recommendations />
     </Container>
   </>
   )
