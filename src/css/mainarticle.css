@@ -1,8 +1,5 @@
-h2 {
-  font-weight: bold;
-  color: #362967;
-}
-p {
+
+.MainArticleScope p {
   text-align: justify !important;
   margin-top: 15px;
   color: #362967;
