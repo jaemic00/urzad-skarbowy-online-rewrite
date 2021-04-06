@@ -1,0 +1,10 @@
+.Message-rect{
+  min-height: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background: #EEEEEEEE;
+}
+.Message-rect p {
+  width: 100%;
+}

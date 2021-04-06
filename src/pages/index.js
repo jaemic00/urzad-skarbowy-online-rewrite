@@ -24,12 +24,13 @@ const buttonValue = "Rozpocznij Rozliczenie PIT";
 const IndexPage = () => {
   return (
   <>
+   
     <Container style={{padding: '0'}} fluid>
       <Menubar />
       <MainBanner header="e-PIT z PITax.pl" buttonValue={buttonValue}/>
       <PartnersBar imgheight="50px" />
       <MainArticle {...mainArticle } buttonValue={buttonValue} />
-      <Recommendations />
+      <Recommendations buttonValue={buttonValue} />
     </Container>
   </>
   )

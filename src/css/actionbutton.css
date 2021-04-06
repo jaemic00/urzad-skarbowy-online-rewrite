@@ -12,6 +12,8 @@
 }
 
 .actionbutton-inline{
+  width: 300px;
+  font-size: calc(12px + 0.3vw);
   background-color: white;
   border: 2px solid #FF7B23;
   color: #FF7B23;
