@@ -37,7 +37,7 @@ const MainArticle = (props) => {
           <StaticImage
             src="../images/landing/landing-09.svg"
             width={250}
-            height={180} />
+            height={200} />
           <Card.Body>
             <Card.Text>
               Rozlicz dowolne przychody – obsługujemy wszystkie druki PIT wraz z załącznikami.
@@ -50,7 +50,7 @@ const MainArticle = (props) => {
           <StaticImage
             src="../images/landing/landing-11.svg"
             width={250}
-            height={180} />
+            height={200} />
           <Card.Body>
             <Card.Text>
               Rozlicz nawet najbardziej zawiłe przychody w prosty sposób – spośród tysięcy pytań zadamy tylko te potrzebne.
@@ -63,7 +63,7 @@ const MainArticle = (props) => {
           <StaticImage
             src="../images/landing/landing-05.svg"
             width={250}
-            height={180} />
+            height={200} />
           <Card.Body>
             <Card.Text>
               Zapisz, wydrukuj lub zachowaj w bezpiecznym repozytorium. Wysłane PITy przechowamy przez 5 lat.
@@ -76,7 +76,7 @@ const MainArticle = (props) => {
           <StaticImage
             src="../images/landing/landing-10.svg"
             width={250}
-            height={180} />
+            height={200} />
           <Card.Body>
             <Card.Text>
               Odpowiedz na tylko proste pytania bez cytowania ustaw i języka prawnego.
@@ -89,7 +89,7 @@ const MainArticle = (props) => {
           <StaticImage
             src="../images/landing/landing-08.svg"
             width={250}
-            height={180} />
+            height={200} />
           <Card.Body>
             <Card.Text>
               Wyślij przez internet do Urzędu Skarbowego – dostaniesz formalne Urzędowe Poświadczenie Odbioru.
@@ -102,13 +102,16 @@ const MainArticle = (props) => {
           <StaticImage
             src="../images/landing/landing-07.svg"
             width={250}
-            height={180} />
+            height={200} />
           <Card.Body>
             <Card.Text>
               Czuj się bezpieczny – podobnie jak systemy bankowe nigdy nie przechowujemy danych na komputerze użytkownika.
             </Card.Text>
           </Card.Body>
         </Card>
+        </Col>
+        <Col style={{textAlign: 'center'}} xs={12}>
+         <ActionButton inline={true} href="https://www.pitax.pl/online/?krs=0000435915" value={props.buttonValue} />
         </Col>
       </Row>
     </>
