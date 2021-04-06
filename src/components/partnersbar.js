@@ -8,7 +8,6 @@ const PartnersBar = (props) => {
   return (
   <>
   <Row>
-    <Col>
       <div className="PartnersBar-mainbar" style={{width:'100%'}}>
         <ul style={{textAlign:'center'}}>
           <li><StaticImage height={props.imgheight} src="../images/partners/unia-europejska-kolor-2.gif" alt="Unia Europejska, Europejski fundusz rozwoju regionalnego"/></li>
@@ -19,7 +18,6 @@ const PartnersBar = (props) => {
           <li><StaticImage height={props.imgheight} src="../images/partners/innowacyjna-gospodarka-pitax2.png" alt="Innowacyjna gospodarka"/></li>
         </ul>
       </div>
-    </Col>
   </Row>
   </>
   )

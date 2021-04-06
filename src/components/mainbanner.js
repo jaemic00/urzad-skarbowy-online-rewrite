@@ -11,11 +11,11 @@ import ActionButton from './actionbutton.js'
 const MainBanner = (props) => {
   return (
   <>
-    <Container className="MainBanner-container" fluid>
+    <div className="MainBanner-container" fluid>
       <Row style={{height: "100%"}}>
         <Col xs={12} sm={6}>
           <span className="MainBanner-subheader">Rozlicz PIT od ręki, bez obaw</span>
-          <h1 style={{fontSize: props.header.length > 20 ? "40px" : "56px"}} >{ props.header }</h1>
+          <h1 style={{fontSize: props.header.length > 20 ? "40px" : "calc(36px + 1.5vw)"}} >{ props.header }</h1>
           <p>
             Rozlicz nowe, wysokie ulgi i&nbsp;odliczenia i&nbsp;zapłać <span className="PitaxColor">niższy&nbsp;podatek&nbsp;PIT</span>
           </p>
@@ -31,7 +31,7 @@ const MainBanner = (props) => {
         <Col className="MainBanner-splash" md={6}>
         </Col>
       </Row>
-    </Container>
+    </div>
   </>
   )
 }

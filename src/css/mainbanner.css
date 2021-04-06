@@ -1,6 +1,6 @@
 .MainBanner-container{
   width: 100%;
-  min-height: 850px;
+  min-height: 900px;
   height: calc(100vh - 70px);
   background-color: #EEEEEE;
   padding-top: 120px;
@@ -21,7 +21,7 @@
 
 .MainBanner-container h1{
   font-weight: bold;
-  font-size: 56px;
+  font-size: calc(40px + 1.2vw);
   margin-top: 20px;
   color: #362967;
 }
