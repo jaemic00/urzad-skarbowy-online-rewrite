@@ -1,8 +1,14 @@
 .MainBanner-container{
   height: calc(100vh - 70px);
   background-color: #EEEEEE;
-  padding-top: 60px;
-  padding-left: calc(15vw - 20px);
+  padding-top: 120px;
+  padding-left: calc(20vw - 20px);
+}
+@media only screen and (max-width: 768px) {
+  .MainBanner-container{
+    padding-top: 50px;
+    height: 100vh;
+  }
 }
 
 .MainBanner-subheader{
@@ -31,15 +37,20 @@
   outline: none;
   border: none;
   font-weight: bold;;
-  font-size: 18px;
-  border-radius: 10px;
-  width: 350px;
+  font-size: calc(12px + 0.5vw);
+  border-radius: none;
+  width: calc(200px + 15vw);
   line-height: 40px  !important;
-  height: 50px;
+  height: 60px;
 }
 
 .MainBanner-pitaxlogo{
-  margin-top: 200px;
+  margin-top: 50px;
+}
+@media only screen and (min-width: 768px) {
+  .MainBanner-pitaxlogo{
+    margin-top: 120px;
+  }
 }
 
 .MainBanner-subtextlogo{
@@ -49,12 +60,17 @@
 }
 
 .MainBanner-splash{
-  margin-top: -60px !important;
+  margin-top: -120px !important;
   background-image: url('../images/banner-splash.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .MainBanner-splash{
+    display: none;
+  }
 }
 
 .MainBanner-actionbutton:hover, 

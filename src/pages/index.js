@@ -13,7 +13,8 @@ const IndexPage = () => {
   return (
   <>
     <Menubar />
-    <MainBanner header="e-PIT z PITax.pl"/>
+    <MainBanner header="e-PIT z PITax.pl" buttonValue="Rozpocznij Rozliczenie Teraz!"/>
+    
   </>
   )
 }

@@ -16,14 +16,14 @@ Navbar{
 .NavbarCollapse{
   position: absolute;
   z-index: 99999;
-  right: 20px;
+  right: 0;
   top: 70px;
   width: 200px;
-  border-radius: 10px;
+  border-radius: none;
   background-color: #362967;
 }
 .NavLink{
-  border-radius: 10px;
+  border-radius: none;
   color: white !important;
   text-align: center;
   padding: 15px;

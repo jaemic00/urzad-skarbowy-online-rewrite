@@ -1,11 +1,13 @@
 import * as React from "react"
 //Styling imports
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Row, Container, Col, Button} from 'react-bootstrap'
 import '../css/mainbanner.css'
+//Other imports
+import {Row, Container, Col} from 'react-bootstrap'
 import { StaticImage } from "gatsby-plugin-image"
+import ActionButton from './actionbutton.js'
 
-// Index Page
+//The main banner
 const MainBanner = (props) => {
   return (
   <>
@@ -17,9 +19,7 @@ const MainBanner = (props) => {
           <p>
             Rozlicz nowe, wysokie ulgi i&nbsp;odliczenia i&nbsp;zapłać <span className="PitaxColor">niższy&nbsp;podatek&nbsp;PIT</span>
           </p>
-          <a href="https://pitax.pl/online/?krs=0000435915">
-            <Button  className="MainBanner-actionbutton" variation="primary">Zaczynamy Rozliczenie PIT</Button>
-          </a>
+          <ActionButton href="https://www.pitax.pl/online/?krs=0000435915" value={props.buttonValue} />
           <div className="MainBanner-pitaxlogo">
             <div className="MainBanner-subtextlogo">Bezpieczne, proste i wygodne rozliczenie zapewnia</div>
             <StaticImage 
@@ -27,7 +27,7 @@ const MainBanner = (props) => {
               width={200} />
           </div>
         </Col>
-        <Col className="MainBanner-splash" xs={0} sm={6}>
+        <Col className="MainBanner-splash" md={6}>
         </Col>
       </Row>
     </Container>
