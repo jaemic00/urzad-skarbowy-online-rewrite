@@ -13,5 +13,14 @@ module.exports = {
     icon: "src/images/icon.png",
     },
   },
+  {
+    resolve: `gatsby-plugin-google-fonts`,
+    options: {
+      fonts: [
+        `Open Sans`,
+      ],
+      display: 'swap'
+    }
+  }
   ],
 };

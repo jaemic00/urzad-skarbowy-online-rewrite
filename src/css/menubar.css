@@ -15,6 +15,7 @@ Navbar{
 }
 .NavbarCollapse{
   position: absolute;
+  z-index: 99999;
   right: 20px;
   top: 70px;
   width: 200px;
@@ -26,6 +27,8 @@ Navbar{
   color: white !important;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
+
 }
 .NavLink:hover{
   color:  #362967 !important;
